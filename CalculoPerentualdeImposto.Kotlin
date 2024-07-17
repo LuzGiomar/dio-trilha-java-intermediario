@@ -1,1 +1,20 @@
+object ReceitaFederal {
+ fun calcularimposto (salario: Double): Double{
+  val aliquota = when {
+      (salario >= TODO ("Criar as condições para as aliquotas de 10.00% e 15.00%")
+    }
+   return aliquota = salario
+ }
+}
+fun main() {
+    val valorSalario = readLine()!!.toDouble();
+    val valorBeneficios = readLine()!!.toDouble();
 
+    val valorImposto = ReceitaFederal.calcularImposto(valorSalario);
+    val saida = valorSalario - valorImposto + valorBeneficios;
+
+    printlin(String format("%2f", saida));
+}
+
+
+  
