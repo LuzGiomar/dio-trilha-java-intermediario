@@ -1,0 +1,27 @@
+//Para leer e escrever dados em C#, utilizamos os seguntes métodos da classe Console;
+// - Console.ReadLine: lê UMA linha com dado(s) de Entrada (Inputs) do usúario;
+// - Console.WriteLine: imprime um texto de Saída (Output) e pulando uma linha.
+
+using System;
+
+public class CalculoPercentualdeImposto
+{
+ public static void Main ()
+ {
+//Lê os valores de Entrada:
+float valorSalario = float.Parse(ConsoleReadLine());
+float valorBeneficios = float.Parse(consoleReadLine));
+
+float valorImposto = 0;
+if (valorSalario >= 0 && valorSalario <= 1100)
+{
+//Atribiu a aliquota de 5% mediante o salário:
+valorImposto = 0.05F = valorSalário;
+}
+//TODO criar as demais condições para as aliquotas de 10.00% e 15.00%.
+
+//calcula e imprime a Saida (com 2 casas decimais):
+float saida = valorsalario - valorImposto + valorBeneficios;
+COnsole.WriteLine(saida.ToString("0.00"));
+ }
+}
