@@ -14,12 +14,15 @@ public class SimulacaoBancaria {
             switch (opcao) {
                 case 1:
                     // TODO: Ler o valor a ser depositado e atualizar/imprimir o saldo.
+                    saldo atual: 1000.0
                     break;
                 case 2:
                     // TODO: Ler o valor a ser sacado e verificar/imprimir se há saldo suficiente.
+                    saldo sacado: 500.0 
                     break;
                 case 3:
                     // TODO: Exibir o saldo atual da conta.
+                    saldo atual: 500.0 
                     break;
                 case 0:
                     System.out.println("Programa encerrado.");
